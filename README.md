@@ -51,8 +51,6 @@
 6. **Generate:** Prompt IBM watsonx (or your own LLM) for icebreakers
 7. **Deliver:** Show actionable, tailored conversation starters
 
-<img alt="Architecture workflow" width="750" src="https://user-images.githubusercontent.com/placeholder/architecture-diagram.png" />
-
 ---
 
 ## 🤝 Contributing
