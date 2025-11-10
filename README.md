@@ -8,12 +8,12 @@ Features
 - CLI and Gradio web UI for different user preferences.
 - Configurable model, embeddings, and prompt templates for experimentation.
 
-Quick demo
-- Select “Use Mock Data” in the UI to instantly analyze a pre-loaded professional profile (no API key required).
-- CLI example: analyze pre-loaded mock profile and print icebreakers.
 
 
+Quick demo (screenshots)
+<img width="1341" height="712" alt="image" src="https://github.com/user-attachments/assets/189fa1fb-cb9a-47b7-a738-0ac066267be4" />
 
+<img width="1334" height="708" alt="image" src="https://github.com/user-attachments/assets/246017bf-e4ac-41b6-a91d-98ab017c3aad" />
 
 Why I built this
 Generic small talk makes networking forgettable. I wanted a tool that surfaces meaningful, personalized conversation starters based on a professional’s actual experience and accomplishments making introductions warmer and more relevant.
@@ -44,21 +44,16 @@ Contributing
   Open an issue or submit a PR. Please include tests for new functionality.
 
 License
-- Add your preferred license file (e.g., MIT). I recommend including LICENSE in the repo root.
+- IBM
 
 Acknowledgements
 - Built with LlamaIndex and IBM watsonx.
 - Thanks to the open-source community and the IBM docs that helped shape the integration.
 
-Final notes (first-person)
-Congratulations — I completed the AI Icebreaker Bot project! I built a powerful application that leverages RAG and LLMs to transform how I and my network generate meaningful professional conversation starters. By integrating IBM watsonx.ai with LlamaIndex, I can analyze LinkedIn profiles and create tailored icebreakers that bridge the gap between raw profile data and human interaction.
+Final notes
+I completed the AI Icebreaker Bot project! I built a powerful application that leverages RAG and LLMs to transform how I and my network generate meaningful professional conversation starters. By integrating IBM watsonx.ai with LlamaIndex, I can analyze LinkedIn profiles and create tailored icebreakers that bridge the gap between raw profile data and human interaction.
 
-This project guided me through the full RAG workflow — from data extraction and chunking to embedding, indexing, retrieval, and generation. With both CLI and Gradio frontends, I made the tool accessible to users with different technical backgrounds.
+This project guided me through the full RAG workflow from data extraction and chunking to embedding, indexing, retrieval, and generation. With both CLI and Gradio frontends, I made the tool accessible to users with different technical backgrounds.
 
-Next steps I can take:
-- Test the bot with different LinkedIn profiles to see how it adapts to various career paths.
-- Experiment with different LLM models and configuration settings to compare performance on icebreaker generation.
-- Refine the prompts to make conversation starters even more engaging and personalized.
-- Deploy the application to a cloud platform to make it accessible to others in my network.
 
 ---
