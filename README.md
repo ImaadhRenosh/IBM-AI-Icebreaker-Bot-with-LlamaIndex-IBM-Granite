@@ -77,7 +77,7 @@ Just [open an issue](https://github.com/ImaadhRenosh/IBM-AI-Icebreaker-Bot-with-
 
 ## 📜 License
 
-IBM
+This project is licensed under © IBM Corporation. All rights reserved.
 
 ---
 
@@ -88,12 +88,11 @@ IBM
 
 ---
 
-## ✨ Final Notes
+## Contact
+For any questions or suggestions, feel free to reach out:
+- **Email:** imaadhrenosh@gmail.com
+- **LinkedIn profile**: [LinkedIn profile](https://www.linkedin.com/in/imaadh-renosh-007aba348)
+- <img width="1050" height="304" alt="image" src="https://github.com/user-attachments/assets/94bd41cd-a409-4c65-a895-de7a031e49d0" />
 
-I built the **AI Icebreaker Bot** to transform networking. Experience the full RAG pipeline:  
-from data extraction → chunking → embedding → retrieval → generation!  
-Accessible via CLI and a beautiful web UI.
-
-> _Make your conversations count — powered by AI!_
 
 ---
