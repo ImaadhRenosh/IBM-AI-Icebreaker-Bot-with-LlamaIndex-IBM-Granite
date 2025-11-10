@@ -18,7 +18,7 @@ I’ve created a comprehensive user manual that walks you through every step —
 Please follow each step **in order** to ensure smooth execution and deployment.
 
 > ⚠️ **Important:** You must complete all setup steps before accessing the app via the browser. Skipping steps may result in a broken or non-functional link.
-> - [Click here to open the Full User Manual]()
+> - [Click here to open the Full User Manual](https://github.com/ImaadhRenosh/IBM-AI-Icebreaker-Bot-with-LlamaIndex-IBM-Granite/blob/main/IBM%20AI%20Ice%20breaker%20for%20conversations.pdf)
 
 ---
 
