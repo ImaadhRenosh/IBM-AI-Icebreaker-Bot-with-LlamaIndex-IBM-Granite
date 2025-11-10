@@ -1,5 +1,5 @@
-# LinkedIn Icebreaker Bot — IBM watsonx + LlamaIndex
-An AI-powered tool that generates personalized conversation starters from LinkedIn profiles. I built this project using IBM watsonx and LlamaIndex to extract profile data (with a convenient mock-data option), run a RAG pipeline, and produce tailored insights about a person’s career. It’s available as both a command-line tool and a web (Gradio) interface so I — or anyone I share it with — can demo the capability without an API key by choosing “Use Mock Data”.
+# LinkedIn Icebreaker Bot : IBM watsonx + LlamaIndex
+An AI-powered tool that generates personalized conversation starters from LinkedIn profiles. I built this project using IBM watsonx and LlamaIndex to extract profile data (with a convenient mock-data option), run a RAG pipeline, and produce tailored insights about a person’s career. It’s available as both a command-line tool and a web (Gradio) interface so I or anyone I share it with can demo the capability without an API key by choosing “Use Mock Data”.
 
 Features
 - Generate personalized, career-aware LinkedIn icebreakers and conversation starters.
@@ -12,8 +12,11 @@ Quick demo
 - Select “Use Mock Data” in the UI to instantly analyze a pre-loaded professional profile (no API key required).
 - CLI example: analyze pre-loaded mock profile and print icebreakers.
 
+
+
+
 Why I built this
-Generic small talk makes networking forgettable. I wanted a tool that surfaces meaningful, personalized conversation starters based on a professional’s actual experience and accomplishments — making introductions warmer and more relevant.
+Generic small talk makes networking forgettable. I wanted a tool that surfaces meaningful, personalized conversation starters based on a professional’s actual experience and accomplishments making introductions warmer and more relevant.
 
 What’s included
 - Code for data ingestion and JSON profile parsing
@@ -31,80 +34,6 @@ Architecture & RAG workflow (high-level)
 5. Retrieval: Use similarity search to retrieve the most relevant chunks for a profile.
 6. Prompting & Generation: Construct targeted prompts and call IBM watsonx (or a configured LLM) to generate personalized icebreakers and context-aware conversation starters.
 7. Output: Present concise, actionable conversation starters via CLI or Gradio UI.
-
-Getting started (local)
-1. Prerequisites
-   - Python 3.10+ (recommended)
-   - pip
-   - Optional: IBM watsonx credentials if you want to use real IBM endpoints
-
-2. Install
-   - Create a virtual environment:
-     python -m venv .venv
-     source .venv/bin/activate  (macOS/Linux)
-     .venv\Scripts\activate     (Windows)
-   - Install dependencies:
-     pip install -r requirements.txt
-
-3. Configuration (optional)
-   - To use IBM watsonx, set environment variables (example names — adapt to your implementation):
-     export WATSONX_API_KEY="your_api_key"
-     export WATSONX_URL="https://api.us-south.watsonx.ai"
-     export WATSONX_DEPLOYMENT="your-deployment-id"
-   - If you prefer not to set keys, use the built-in mock data mode (see usage).
-
-Usage
-
-- CLI (mock data)
-  - Example:
-    python run_cli.py --use-mock
-  - What it does: loads a pre-seeded LinkedIn profile JSON, runs the RAG pipeline locally, and prints a set of personalized conversation starters.
-
-- Web UI (Gradio) (mock data)
-  - Example:
-    python app.py --use-mock
-  - Then open the local Gradio URL shown in the console.
-  - The UI lets you toggle “Use Mock Data” to demo the bot instantly without any API keys.
-
-- Using real LinkedIn profile JSON
-  - Point the CLI or web UI to a JSON file:
-    python run_cli.py --profile path/to/profile.json
-  - Or in the web UI, upload a profile JSON and run the analysis (if implemented).
-
-Mock data
-- Purpose: demo and presentations when you don’t have/want to use IBM credentials.
-- How to enable:
-  - Pass the --use-mock flag to CLI or Web UI
-  - In the Gradio interface, toggle the “Use Mock Data” option
-- The mock dataset is a representative LinkedIn profile (roles, skills, education, achievements) designed to showcase the bot’s output quality.
-
-Prompt engineering & tuning
-- Prompts are modular and configurable. I split prompts into:
-  - Retrieval prompts (how to score chunks for relevance)
-  - Generation prompts (how to turn retrieved facts into icebreakers)
-- Tips:
-  - Experiment with prompt temperature and max tokens to balance creativity vs. factuality.
-  - Add question/answer examples in the prompt to steer tone and length.
-  - Try different embedding models to affect retrieval fidelity.
-
-Experimentation suggestions
-- Test the bot with multiple representative LinkedIn profiles to evaluate adaptability across industries and career stages.
-- Swap LLMs or embedding models to compare quality and latency.
-- Refine prompt templates to produce shorter, friendlier, or more formal icebreakers depending on your target audience.
-
-Deploying
-- Containerize with Docker for reproducible deployments.
-- Host the Gradio app on a cloud VM or platform (Render, Fly, IBM Cloud).
-- Secure keys with environment variables or a secrets manager, and enable HTTPS for the web interface.
-
-Files (example)
-- run_cli.py            — CLI entrypoint (supports --use-mock, --profile)
-- app.py                — Gradio app (supports --use-mock)
-- extractor.py          — JSON extraction & chunking
-- indexer.py            — Embeddings + vector DB builder (LlamaIndex)
-- retriever.py          — Retrieval functions
-- generator.py          — Prompt construction and IBM watsonx client calls
-- mock_data/profile.json — Built-in demo profile
 
 Contributing
 - I welcome improvements. If you want to:
