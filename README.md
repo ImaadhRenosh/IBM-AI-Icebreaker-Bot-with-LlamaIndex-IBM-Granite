@@ -11,7 +11,7 @@ This project has taken me through the complete RAG workflow, from data extractio
 
 With both a command-line interface and a Gradio web application, I’ve made the LinkedIn Icebreaker Bot accessible to users of all technical backgrounds. Whether you’re a recruiter, manager, or job seeker, you can explore its features and flexibility right away.
 
-You can demo the bot instantly using mock data—no API key needed. Available as both a command-line tool and a Gradio web app, it’s accessible regardless of your technical background. I built a full RAG pipeline, combining LlamaIndex for retrieval and IBM watsonx for generation and embeddings.
+You can demo the bot instantly using mock data, no API key needed. Available as both a command-line tool and a Gradio web app, it’s accessible regardless of your technical background. I built a full RAG pipeline, combining LlamaIndex for retrieval and IBM watsonx for generation and embeddings.
 
 Try it out, experiment with different settings, and make every conversation count!
 > **Create Memorable Conversations, Instantly!**  
