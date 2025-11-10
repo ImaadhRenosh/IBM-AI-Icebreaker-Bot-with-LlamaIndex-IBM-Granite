@@ -26,8 +26,6 @@ Please follow each step **in order** to ensure smooth execution and deployment.
 
 ![Icebreaker AI Demo Screenshot 2](https://github.com/user-attachments/assets/246017bf-e4ac-41b6-a91d-98ab017c3aad)
 
----
-
 ## 💡 Features
 
 - 🔗 **Career-aware icebreakers** for LinkedIn networking
