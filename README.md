@@ -18,6 +18,15 @@ Try it out, experiment with different settings, and make every conversation coun
 > Personalized, AI-generated icebreakers from any LinkedIn profile.  
 > ⚡ Powered by **IBM watsonx** & **LlamaIndex** ⚡
 
+## 📘 Complete Build & Deployment Guide
+
+I’ve created a comprehensive user manual that walks you through every step — from environment setup to launching the Gradio-powered interface.  
+
+Please follow each step **in order** to ensure smooth execution and deployment.
+
+> ⚠️ **Important:** You must complete all setup steps before accessing the app via the browser. Skipping steps may result in a broken or non-functional link.
+> 
+
 ---
 
 ![Icebreaker AI Demo Screenshot](https://github.com/user-attachments/assets/189fa1fb-cb9a-47b7-a738-0ac066267be4)
