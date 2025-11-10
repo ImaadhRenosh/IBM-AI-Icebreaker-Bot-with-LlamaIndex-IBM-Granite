@@ -39,7 +39,7 @@ Try it out, experiment with different settings, and make every conversation coun
 ## 🌟 Why Build This?
 
 > _Tired of generic small talk? 🤝_  
-> I wanted a tool that helps everyone—recruiters, managers, job seekers—stand out in DMs and meetings.  
+> I wanted a tool that helps everyone recruiters, managers, job seekers stand out in DMs and meetings.  
 > This bot surfaces meaningful, personalized openers based on real experience, not just buzzwords.
 
 ---
